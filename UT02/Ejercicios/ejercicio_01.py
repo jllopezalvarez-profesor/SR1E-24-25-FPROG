@@ -1,5 +1,6 @@
 """
 Ejercicio 01
+Escribir un programa que pida dos números e indique si el primero es mayor que el segundo o no.
 """
 
 primer_numero = int(input("Introduce el primer número: "))
