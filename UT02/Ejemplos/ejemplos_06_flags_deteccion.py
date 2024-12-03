@@ -10,5 +10,4 @@ for i in range(5):
     numero = int(input("Introduce un número: "))
     if numero % 5 == 0:
         multiplo_encontrado = True
-
 print("Se ha encontrado al menos un múltiplo de cinco" if multiplo_encontrado else "No se ha encontrado ningún múltiplo de cinco")
