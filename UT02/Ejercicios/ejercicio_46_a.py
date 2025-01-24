@@ -17,7 +17,7 @@ print(lista)
 
 otra_lista = []
 for posicion in range(len(lista)):
-    if (posicion % 2) == 0:
+    if posicion % 2 == 0:
         otra_lista.append(lista[posicion])
 
 print(otra_lista)
