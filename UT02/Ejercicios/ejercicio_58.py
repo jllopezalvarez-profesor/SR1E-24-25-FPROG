@@ -30,6 +30,8 @@ print("Estudié", datos_usuario["estudios"])
 datos_usuario["profesion"] = "Profesor"
 datos_usuario["edad"] = 55
 
+print(datos_usuario)
+
 print("Me llamo", datos_usuario["nombre_completo"])
 print(f"Tengo {datos_usuario["edad"]} años")
 print(f"Nací en {datos_usuario["ciudad nacimiento"]}")
