@@ -27,10 +27,7 @@ def factorial_semi_compleja(n):
             for i in range(2, n+1):
                 acumulador *= i
             return acumulador
-        else:
-            return -1
-    else:
-        return -1
+    return -1
 
 
 def factorial(n):
@@ -54,12 +51,14 @@ def factorial(n):
 
 
 # Fuera de la función
-print(f"El factorial de 0 es {factorial_compleja(0)}")
-print(f"El factorial de 1 es {factorial_compleja(1)}")
-print(f"El factorial de 2 es {factorial_compleja(2)}")
-print(f"El factorial de 5 es {factorial_compleja(5)}")
 
-# Fuera de la función
+# print(f"El factorial de 0 es {factorial_compleja(0)}")
+# print(f"El factorial de 1 es {factorial_compleja(1)}")
+# print(f"El factorial de 2 es {factorial_compleja(2)}")
+# print(f"El factorial de 5 es {factorial_compleja(5)}")
+
+print(f"El factorial de 'C', que no se puede calcular, es {factorial('C')}")
+print(f"El factorial de -5, que no se puede calcular, es {factorial(-5)}")
 print(f"El factorial de 0 es {factorial(0)}")
 print(f"El factorial de 1 es {factorial(1)}")
 print(f"El factorial de 2 es {factorial(2)}")
